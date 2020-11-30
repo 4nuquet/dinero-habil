@@ -1,0 +1,40 @@
+.text-bold {
+    font-weight: bold !important;
+}
+.text-offer {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.btn-cta {
+    border-radius: 24px;
+    @media  (max-width: 400px){
+        margin: 0 !important;
+    }
+    h5 {
+        color: white;
+        padding-top: 8px;
+    }
+}
+.date-limit {
+    @media (max-width: 425px) {
+        flex-direction: column !important;
+
+        .author-profile{
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.arrow-cta {
+    font-size: 3rem;
+}
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.separator {
+    border: 1px solid white;
+    width: 100%;
+}
