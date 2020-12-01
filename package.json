@@ -2,7 +2,7 @@
   "name": "dinero-habil",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://4nuquet.github.io/dinero-habil",
+  "homepage": "https://4nuquet.github.io/dinero-habil",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
