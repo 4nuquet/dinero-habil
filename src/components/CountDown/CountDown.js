@@ -30,13 +30,13 @@ useEffect(() => {
 })
 
     return (
-        <div className='container-fluid bg-danger d-flex justify-content-around py-3'>
+        <div className='container-fluid bg-danger d-flex justify-content-center py-3 content-date'>
             <div className='text-center'><h1 className='text-offer text-white'>{''+date.days}</h1><span>DIAS</span></div>
-            <div className='text-center'><h1 className='text-offer text-white'>:</h1></div>
+            <div className='text-center'><h1 className='text-offer text-white px-2'>:</h1></div>
             <div className='text-center'><h1 className='text-offer text-white'>{date.hours}</h1><span>HORAS</span></div>
-            <div className='text-center'><h1 className='text-offer text-white'>:</h1></div>
+            <div className='text-center'><h1 className='text-offer text-white px-2'>:</h1></div>
             <div className='text-center'><h1 className='text-offer text-white'>{date.minutes}</h1><span>MINUTOS</span></div>
-            <div className='text-center'><h1 className='text-offer text-white'>:</h1></div>
+            <div className='text-center'><h1 className='text-offer text-white px-2'>:</h1></div>
             <div className='text-center'><h1 className='text-offer text-white'>{date.seconds}</h1><span>SEGUNDOS</span></div>
         </div>
     )

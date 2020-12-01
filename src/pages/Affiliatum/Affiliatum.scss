@@ -38,3 +38,32 @@
     border: 1px solid white;
     width: 100%;
 }
+
+.webinar {
+
+    margin-left: -8rem;
+
+    @media (max-width: 425px) {
+        margin-top: -3rem;
+        margin-left: -1.5rem;
+        margin-bottom: -3rem;
+    }
+    @media (max-width: 1024px) {
+        margin-top: -3rem;
+        margin-left: -4rem;
+        margin-bottom: -2rem;
+    }
+    @media (max-width: 768px) {
+        margin-left: -3rem;
+        margin-bottom: -4rem;
+    }
+    @media (max-width: 375px) {
+        margin-top: -3rem;
+        margin-left: -1.8rem;
+        margin-bottom: -3rem;
+    }
+}
+
+.fa-coins {
+    color:  #ffc107;
+}

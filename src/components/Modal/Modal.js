@@ -1,30 +1,23 @@
 import React from 'react'
+import './Modal.scss'
+import '../../pages/Affiliatum/Theme.css'
 
 const Modal = (props) => {
-    const { visible, setModal } = props;
-    console.log(visible)
-    return (
-<div class="modal" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Save changes</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+  const { setModal } = props;
+
+  return (
+    <div className='backdrop d-flex align-items-center justify-content-center' hidden={false}>
+      <div className='card bg-black'>
+        <div className='card-body'>
+          <h2 className='text-white'>¿Estás dispuesto a TRANSFORMAR tu manera de generar ingresos por internet?</h2>
+          <div class="cta-holder mt-4 text-center">
+            <button class="btn btn-primary btn-cta shadow animate__animated animate__heartBeat animate__slower animate__infinite infinite" onClick={() => setModal()}><h5 >VAMOS CON TODA</h5></button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-    )
+  )
 }
 
 export default Modal
