@@ -168,7 +168,7 @@ function Affiliatum() {
 					<div className="row justify-content-center">
 						<div className="col-12 col-md-6 mb-5">
 							<div className="hero-quotes mt-5">
-								<div id="quotes-carousel" className="quotes-carousel carousel slide mb-5" data-ride="carousel" data-interval="8000">
+								<div id="quotes-carousel" className="quotes-carousel carousel slide mb-5" data-ride="carousel" data-interval="5000">
 									<ol className="carousel-indicators">
 										<li data-target="#quotes-carousel" data-slide-to="0" className="active"></li>
 										{resultImages.map(item => (<li data-target="#quotes-carousel" data-slide-to={'#' + item.pos} ></li>))}
@@ -212,7 +212,7 @@ function Affiliatum() {
 					<div className="row justify-content-center">
 						<div className="col-12 col-md-6 mb-5">
 							<div className="hero-quotes mt-5">
-								<div id="more-carousel" className="quotes-carousel carousel slide carousel-fade mb-5" data-ride="carousel" data-interval="8000">
+								<div id="more-carousel" className="quotes-carousel carousel slide carousel-fade mb-5" data-ride="carousel" data-interval="5000">
 									<ol className="carousel-indicators">
 										<li data-target="#more-carousel" data-slide-to="0" className="active"></li>
 										{moreResults.map(item => (
@@ -400,19 +400,8 @@ function Affiliatum() {
 							</div>
 						</div>
 						<a className="btn btn-primary btn-block btn-cta shadow animate__animated animate__tada animate__slower animate__infinite infinite" href='https://go.hotmart.com/N29664873G?ap=e178'><h4 className='text-white'>QUIERO MI LUGAR YA!!!</h4></a>
-						<div className='d-flex justify-content-around'>
-							<div className='text-warning arrow-cta'>
-								<i className="fas fa-angle-double-up arrow-cta"></i>
-							</div>
-							<div className='text-warning arrow-cta'>
-								<i className="fas fa-angle-double-up arrow-cta"></i>
-							</div>
-							<div className='text-warning arrow-cta'>
-								<i className="fas fa-angle-double-up arrow-cta"></i>
-							</div>
-							<div className='text-warning arrow-cta'>
-								<i className="fas fa-angle-double-up arrow-cta"></i>
-							</div>
+						<div className='text-center w-75 mx-auto'>
+							<img className="img-fluid" src="assets/images/cards.png" alt="EducacionHabil" />			
 						</div>
 					</div>
 				</div>
