@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/dinero-habil/static/css/main.8c396fcf.chunk.css",
-    "main.js": "/dinero-habil/static/js/main.f06335bb.chunk.js",
-    "main.js.map": "/dinero-habil/static/js/main.f06335bb.chunk.js.map",
-    "runtime-main.js": "/dinero-habil/static/js/runtime-main.6d0529fb.js",
-    "runtime-main.js.map": "/dinero-habil/static/js/runtime-main.6d0529fb.js.map",
-    "static/js/2.e1a87efe.chunk.js": "/dinero-habil/static/js/2.e1a87efe.chunk.js",
-    "static/js/2.e1a87efe.chunk.js.map": "/dinero-habil/static/js/2.e1a87efe.chunk.js.map",
-    "index.html": "/dinero-habil/index.html",
-    "static/css/main.8c396fcf.chunk.css.map": "/dinero-habil/static/css/main.8c396fcf.chunk.css.map",
-    "static/js/2.e1a87efe.chunk.js.LICENSE.txt": "/dinero-habil/static/js/2.e1a87efe.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.8c396fcf.chunk.css",
+    "main.js": "/static/js/main.f06335bb.chunk.js",
+    "main.js.map": "/static/js/main.f06335bb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7a7c5fdc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7a7c5fdc.js.map",
+    "static/js/2.e1a87efe.chunk.js": "/static/js/2.e1a87efe.chunk.js",
+    "static/js/2.e1a87efe.chunk.js.map": "/static/js/2.e1a87efe.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8c396fcf.chunk.css.map": "/static/css/main.8c396fcf.chunk.css.map",
+    "static/js/2.e1a87efe.chunk.js.LICENSE.txt": "/static/js/2.e1a87efe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6d0529fb.js",
+    "static/js/runtime-main.7a7c5fdc.js",
     "static/js/2.e1a87efe.chunk.js",
     "static/css/main.8c396fcf.chunk.css",
     "static/js/main.f06335bb.chunk.js"
